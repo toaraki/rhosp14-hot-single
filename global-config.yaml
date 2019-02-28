@@ -1,0 +1,14 @@
+parameter_defaults:
+
+  StandaloneCount: 1
+  OvercloudStandaloneFlavor: standalone
+
+  NtpServer: '192.168.3.65'
+  NeutronNetworkType: 'vxlan,vlan'
+  NeutronTunnelTypes: 'vxlan'
+
+# additional settings 
+
+  NovaReservedHostMemory: 1024
+  DockerPuppetDebug: 'True'
+  DockerPuppetProcessCount: 1
