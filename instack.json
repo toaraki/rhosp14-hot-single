@@ -1,0 +1,19 @@
+{
+    "nodes":[
+        {
+            "mac":[
+                "52:54:00:c5:57:09"
+            ],
+            "name":"node01",
+            "cpu":"4",
+            "memory":"6144",
+            "disk":"40",
+            "arch":"x86_64",
+            "pm_type":"ipmi",
+            "pm_user":"admin",
+            "pm_password":"p@55w0rd!",
+            "pm_addr":"192.168.3.65",
+            "pm_port":"16233"
+        }
+    ]
+}
